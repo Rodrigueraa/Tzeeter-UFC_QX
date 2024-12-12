@@ -1,2 +1,6 @@
-# Tzeeter-UFC_QX
+![image](https://github.com/user-attachments/assets/9a38f49b-7a29-46f4-862e-b5c0fa94dd68)# Tzeeter-UFC_QX
 Repositório referente a atividade Tzeeter da cadeira de Desenvolvimento Web na UFC QX
+
+O intuito dessa atividade é construir a página principal do Tzeeter, utilizando apenas as tags HTML vistas em sala de aula. A página inicial deve ficar bastante parecida com a página do Twitter, contendo basicamente as mesmas informações. Na figura abaixo, as informações numeradas são aquelas que deve aparecer na nossa página.
+
+![image](https://github.com/user-attachments/assets/fca6fa32-b5a6-4e96-a894-3a0940f4a151)
