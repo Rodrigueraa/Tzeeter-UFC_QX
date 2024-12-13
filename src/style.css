@@ -1,0 +1,33 @@
+body{
+    color: rgb(15, 20, 25);
+}
+
+.navegacao a, li{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    list-style: none;
+    border-radius: 15px;
+}
+
+.navegacao li:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    list-style: none;
+    border-radius: 15px;
+}
+
+.infos a{
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+.count{
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+.count:hover .estatisticas:hover, a:hover{
+    color: red;
+    text-decoration: underline;
+}
