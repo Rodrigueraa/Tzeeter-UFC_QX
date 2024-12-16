@@ -17,6 +17,27 @@ body{
     border-radius: 15px;
 }
 
+.name{
+    color: rgb(15, 20, 25);
+}
+
+.user{
+    color: rgb(83, 100, 113);
+}
+
+.bio{
+    color: rgb(15, 20, 25);
+}
+
+.data{
+    color: rgb(83, 100, 113);
+}
+
+.profilePhoto{
+    width: 64px;
+    border-radius: 100%;
+}
+
 .infos a{
     text-decoration: none;
     color: rgb(15, 20, 25);
@@ -28,6 +49,32 @@ body{
 }
 
 .count:hover .estatisticas:hover, a:hover{
-    color: red;
     text-decoration: underline;
+}
+
+.pages a{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.acoes a{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+}
+
+.replyshare:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 10px;
+}
+
+.retzeet:hover{
+    background-color: rgba(0, 186, 124, 0.1);
+    color: rgba(0, 186, 124, 1);
+    border-radius: 10px;
+}
+
+.like:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+    color: rgba(249, 24, 128, 1);
+    border-radius: 10px;
 }
