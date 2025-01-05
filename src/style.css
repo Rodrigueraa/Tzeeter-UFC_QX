@@ -33,6 +33,19 @@ body{
     color: rgb(83, 100, 113);
 }
 
+.dateTweet{
+    color: rgb(83, 100, 113);
+}
+
+.text{
+    color: rgb(15, 20, 25);
+}
+
+.tweet:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 10px;
+}
+
 .profilePhoto{
     width: 64px;
     border-radius: 100%;
