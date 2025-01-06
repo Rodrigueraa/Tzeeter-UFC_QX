@@ -39,6 +39,7 @@ body{
 
 .text{
     color: rgb(15, 20, 25);
+    margin-top: 0px;
 }
 
 .tweet:hover{
@@ -73,6 +74,19 @@ body{
 .pages a:hover{
     background-color: rgba(15, 25, 20, 0.1);
     text-decoration: none;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profilePhotoTweet{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;   
+    display: flex;
 }
 
 .acoes a{
