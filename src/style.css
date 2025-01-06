@@ -70,6 +70,11 @@ body{
     text-decoration: none;
 }
 
+.pages a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+    text-decoration: none;
+}
+
 .acoes a{
     color: rgb(83, 100, 113);
     text-decoration: none;
