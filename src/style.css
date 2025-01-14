@@ -1,20 +1,75 @@
 body{
     color: rgb(15, 20, 25);
+    display: flex;
 }
 
-.navegacao a, li{
+.navegacao{
+    border-right: 2px solid rgb(230, 236, 240);
+    height: 100vh;
+    padding-right: 10px;
+}
+
+.navegacao a{
     color: rgb(15, 20, 25);
     text-decoration: none;
     list-style: none;
-    border-radius: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+.navegacao a:hover{
+    text-decoration: none;
+}
+
+.navegacao li{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    width: 200px;
 }
 
 .navegacao li:hover{
     background-color: rgba(15, 25, 20, 0.1);
-    color: rgb(15, 20, 25);
-    text-decoration: none;
-    list-style: none;
     border-radius: 15px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 40px;
+    max-width: 25px;
+}
+
+.tzeetar{
+    border-style: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.tzeetar:hover{
+    background-color: rgb(26, 135, 207);
+}
+
+.profilePhoto{
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.editProfile{
+    border-style: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100px;   
+    float: right;
+    margin: 20px;
 }
 
 .name{
@@ -25,36 +80,20 @@ body{
     color: rgb(83, 100, 113);
 }
 
-.bio{
-    color: rgb(15, 20, 25);
-}
-
-.data{
-    color: rgb(83, 100, 113);
-}
-
-.dateTweet{
-    color: rgb(83, 100, 113);
-}
-
-.text{
-    color: rgb(15, 20, 25);
-    margin-top: 0px;
-}
-
-.tweet:hover{
-    background-color: rgba(29, 155, 240, 0.1);
-    border-radius: 10px;
-}
-
-.profilePhoto{
-    width: 64px;
-    border-radius: 100%;
+.infos{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
 }
 
 .infos a{
     text-decoration: none;
     color: rgb(15, 20, 25);
+}
+
+.data{
+    color: rgb(83, 100, 113);
 }
 
 .count{
@@ -66,20 +105,29 @@ body{
     text-decoration: underline;
 }
 
+.tweet:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    border-radius: 10px;
+}
+
+.pages{
+    min-width: 100vh;
+    background-color: rgb(241, 241, 241);
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 10px;
+}
+
 .pages a{
+    min-width: 25%;
     color: rgb(83, 100, 113);
     text-decoration: none;
+    text-align: center;
 }
 
 .pages a:hover{
     background-color: rgba(15, 25, 20, 0.1);
     text-decoration: none;
-}
-
-.profile{
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 
 .profilePhotoTweet{
@@ -109,4 +157,66 @@ body{
     background-color: rgba(249, 24, 128, 0.1);
     color: rgba(249, 24, 128, 1);
     border-radius: 10px;
+}
+
+.dateTweet{
+    color: rgb(83, 100, 113);
+}
+
+.text{
+    color: rgb(15, 20, 25);
+    margin-top: 0px;
+}
+
+.recomendados{
+    border-left: 2px solid rgb(230, 236, 240);
+    width: 60vh;
+    padding: 10px;
+}
+
+.search{
+    background-color: rgb(233, 230, 230);
+    min-width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.searchInput{
+    background-color: transparent;
+    max-width: 90%;
+    border-style: none;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.containerRecomendados{
+    min-width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(233, 230, 230);
+}
+
+.userRecomendado > .profilePhotoRecomendado{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.users > .userRecomendado{
+    display: flex;
+    margin-top: 10px;
+}
+
+.follow{
+    border-style: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100px;
+    margin: 20px;
 }

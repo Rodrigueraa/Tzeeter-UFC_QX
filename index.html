@@ -5,71 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tzeeter</title>
     <link rel="stylesheet" href="src/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
 </head>
-<body>
     
     <nav class="navegacao">
+        <img src="/src/img/tiziu.png" alt="logoTzeeer" class="logo">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Explore</a></li>
-            <li><a href="">Notifications</a></li>
-            <li><a href="">Messages</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">More</a></li>
+            <li><i class="bi bi-house"></i><a href=""> Home</a></li>
+            <li><i class="bi bi-search"></i><a href=""> Explore</a></li>
+            <li><i class="bi bi-bell"></i><a href=""> Notifications</a></li>
+            <li><i class="bi bi-envelope"></i><a href=""> Messages</a></li>
+            <li><i class="bi bi-person"></i><a href=""> Profile</a></li>
+            <li><i class="bi bi-three-dots"></i> <a href="">More</a></li>
+            <button class="tzeetar">Tzeetar</button>
         </ul>
     </nav>
 
-    <section class="perfil">
-        <img src="/src/img/profilePhoto.jpeg" alt="foto de perfil" class="profilePhoto">
-        <button>edit profile</button>
-        <h3 class="name">Rodrigo Cauã</h3>
-        <h5 class="user">@Rodriguera</h5>
-        <h6 class="bio">Atirei o pau no gatis, per gatis num morreus.</h6>
-        <ul class="infos">
-            <li class="data">
-                <a href="">Quixadá</a>
-                <a href="">Joined December 2024</a>
-            </li>
-            <li class="estatisticas">
-                <a href=""><span class="count">10</span> following</a>
-                <a href=""><span class="count">5</span> followers</a>
-            </li>
-        </ul>
+    <div class="container">
+
+        <section class="perfil">   
+            <img src="/src/img/profilePhoto.jpeg" alt="foto de perfil" class="profilePhoto">
+            <button class="editProfile">Edit profile</button>
+            
+            <h4 class="name">Rodrigo Cauã</h4>
+            <h6 class="user">@Rodriguera</h6>
+            <h6 class="textBio">Atirei o pau no gatis, per gatis num morreus.</h6>
+
+            <ul class="infos">
+                <li class="estatisticas">
+                    <a href=""><span class="count">10</span> following</a>
+                    <a href=""><span class="count">5</span> followers</a>
+                </li>
+                <li class="data">
+                    <i class="bi bi-geo-alt"></i><a href="">Quixadá</a>
+                    <i class="bi bi-calendar3"></i><a href=""> Joined December 2024</a>
+                </li>
+            </ul>
+
+        </section>
+
+        <nav class="pages">
+       
+                <a href="">Tzeets</a>
+                <a href="">Tzeets & Replies</a>
+                <a href="">Media</a>
+                <a href="">Likes</a>
+       
+        </nav>
+
+        <article class="tweet">
+                <div class="profile">
+                    <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
+                    <h6 class="name">Rodrigo Cauã <span class="user">@Rodriguera</span> <time datetime="2021-01-01" class="dateTweet">01/01/21</time></h6>
+                </div>
+                <p class="text">Mussum Ipsum, cacilds vidis litro abertis.</p>
+                <div class="acoes">
+                    <a href="" class="replyshare"><i class="bi bi-chat"></i> Reply</a>
+                    <a href="" class="retzeet"><i class="bi bi-arrow-repeat"></i> Retzeet</a>
+                    <a href="" class="like"><i class="bi bi-heart"></i> Like</a>
+                    <a href="" class="replyshare"><i class="bi bi-share"></i> Share</a>
+                </div>
+        </article>
+
+        <article class="tweet">
+            <div class="profile">
+                <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
+                <h6 class="name">Rodrigo Cauã <span class="user">@Rodriguera</span> <time datetime="2021-01-01" class="dateTweet">01/01/21</time></h6>
+            </div>
+            <p class="text">Mussum Ipsum, cacilds vidis litro abertis.</p>
+            <div class="acoes">
+                <a href="" class="replyshare"><i class="bi bi-chat"></i> Reply</a>
+                <a href="" class="retzeet"><i class="bi bi-arrow-repeat"></i> Retzeet</a>
+                <a href="" class="like"><i class="bi bi-heart"></i> Like</a>
+                <a href="" class="replyshare"><i class="bi bi-share"></i> Share</a>
+            </div>
+        </article>  
+
+        <article class="tweet">
+            <div class="profile">
+                <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
+                <h6 class="name">Rodrigo Cauã <span class="user">@Rodriguera</span> <time datetime="2021-01-01" class="dateTweet">01/01/21</time></h6>
+            </div>
+            <p class="text">Mussum Ipsum, cacilds vidis litro abertis.</p>
+            <div class="acoes">
+                <a href="" class="replyshare"><i class="bi bi-chat"></i> Reply</a>
+                <a href="" class="retzeet"><i class="bi bi-arrow-repeat"></i> Retzeet</a>
+                <a href="" class="like"><i class="bi bi-heart"></i> Like</a>
+                <a href="" class="replyshare"><i class="bi bi-share"></i> Share</a>
+            </div>
+        </article>
+
+    </div> 
+
+    <section class="recomendados">
+        <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" name="" id="" placeholder="Username" class="searchInput">
+        </div> 
+
+        <div class="containerRecomendados">
+            <h6 class="title">Who to follow</h6>
+            <ul class="users">
+                <li class="userRecomendado">
+                    <img src="/src/img/users.png" alt="" class="profilePhotoRecomendado">
+                    <h6 class="name">Rodrigo Farinon <span class="user">@arrebol</span></h6>
+                    <button class="follow">Follow</button>
+                </li>
+                <li class="userRecomendado">
+                    <img src="/src/img/users.png" alt="" class="profilePhotoRecomendado">
+                    <h6 class="name">Caio Cezar <span class="user">@cezinha</span></h6>
+                    <button class="follow">Follow</button>
+                </li>
+                <li class="userRecomendado">
+                    <img src="/src/img/users.png" alt="" class="profilePhotoRecomendado">
+                    <h6 class="name">Carlos Eduardo <span class="user">@coala</span></h6>
+                    <button class="follow">Follow</button>
+                </li>
+            </ul>
+        </div>
+
+
     </section>
 
-    <nav class="pages">
-            <a href="">Tzeets</a>
-            <a href="">Tzeets & replies</a>
-            <a href="">Media</a>
-            <a href="">Likes</a>
-    </nav>
 
-    <article class="tweet">
-        <div class="profile">
-            <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
-            <h6 class="name">Rodrigo Cauã <span class="user">@Rodriguera</span> <time datetime="2021-01-01" class="dateTweet">01/01/21</time></h6>
-        </div>
-        <p class="text">Mussum Ipsum, cacilds vidis litro abertis.</p>
-        <div class="acoes">
-            <a href="" class="replyshare">Reply</a>
-            <a href="" class="retzeet">Retzeet</a>
-            <a href="" class="like">Like</a>
-            <a href="" class="replyshare">Share</a>
-        </div>
-    </article>
-
-    <article class="tweet">
-        <div class="profile">
-            <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
-            <h6 class="name">Rodrigo Cauã <span class="user">@Rodriguera</span> <time datetime="2021-01-01" class="dateTweet">01/01/21</time></h6>
-        </div>
-        <p class="text">Mussum Ipsum, cacilds vidis litro abertis.</p>
-        <div class="acoes">
-            <a href="" class="replyshare">Reply</a>
-            <a href="" class="retzeet">Retzeet</a>
-            <a href="" class="like">Like</a>
-            <a href="" class="replyshare">Share</a>
-        </div>
-    </article>
 </body>
 </html>
