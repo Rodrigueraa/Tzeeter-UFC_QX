@@ -1,3 +1,17 @@
+@import url(/src/screen.css);
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(201, 22, 22);
+    }
+
+    .navegacao{
+        border-right: 2px solid rgb(230, 236, 240);
+        padding-right: 10px;
+        background-color: rgb(211, 90, 90);
+    }
+}
+
 body{
     color: rgb(15, 20, 25);
     display: flex;
@@ -5,8 +19,8 @@ body{
 
 .navegacao{
     border-right: 2px solid rgb(230, 236, 240);
-    height: 100vh;
     padding-right: 10px;
+    background-color: rgb(247, 245, 245);
 }
 
 .navegacao a{
@@ -118,11 +132,16 @@ body{
     margin-bottom: 10px;
 }
 
-.pages a{
+.pages > a{
     min-width: 25%;
     color: rgb(83, 100, 113);
     text-decoration: none;
     text-align: center;
+    border-right: 2px solid rgb(189, 199, 206);
+}
+
+.pages > a:last-child {
+    border-right: none; 
 }
 
 .pages a:hover{
@@ -130,11 +149,18 @@ body{
     text-decoration: none;
 }
 
+.profileTweet{
+    display: flex;
+    align-items: center;
+}
+
 .profilePhotoTweet{
     width: 30px;
     height: 30px;
     border-radius: 100%;   
     display: flex;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .acoes a{
@@ -163,15 +189,18 @@ body{
     color: rgb(83, 100, 113);
 }
 
-.text{
-    color: rgb(15, 20, 25);
-    margin-top: 0px;
+.tweet{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
 }
 
 .recomendados{
     border-left: 2px solid rgb(230, 236, 240);
     width: 60vh;
     padding: 10px;
+    background-color: rgb(247, 245, 245)
 }
 
 .search{
@@ -211,12 +240,11 @@ body{
     margin-top: 10px;
 }
 
-.follow{
+.buttomFollow{
     border-style: none;
     background-color: rgb(29, 155, 240);
     color: white;
     justify-content: center;
     border-radius: 20px;
-    width: 100px;
     margin: 20px;
 }
