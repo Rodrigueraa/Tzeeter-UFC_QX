@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tzeeter</title>
-    <link rel="stylesheet" href="src/base_style.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/base_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
 </head>
-
-<body>
-
+    
     <nav class="navegacao">
         <img src="/src/img/tiziu.png" alt="logoTzeeer" class="logo">
         <ul>
@@ -27,34 +26,23 @@
     </nav>
 
     <main class="container">
-
-        <section class="perfil">   
-            <img src="/src/img/profilePhoto.jpeg" alt="foto de perfil" class="profilePhoto">
-            <button class="editProfile">Edit profile</button>
-            
-            <h4 class="name">Rodrigo Cauã</h4>
-            <h6 class="user">@Rodriguera</h6>
-            <h6 class="textBio">Atirei o pau no gatis, per gatis num morreus.</h6>
-
-            <ul class="infos">
-                <li class="data">
-                    <i class="bi bi-geo-alt"></i><a href="">Quixadá</a>
-                    <i class="bi bi-calendar3"></i><a href=""> Joined December 2024</a>
-                </li>
-                <li class="estatisticas">
-                    <a href=""><span class="count">10</span> following</a>
-                    <a href=""><span class="count">5</span> followers</a>
-                </li>
-            </ul>
-
-        </section>
-
-        <nav class="pages">
-                <a href="">Tzeets</a>
-                <a href="">Replies</a>
-                <a href="">Media</a>
-                <a href="">Likes</a>
-        </nav>
+        <header class="home">
+            <h1>Home</h1>
+            <img src="/src/img/profilePhoto.jpeg" alt="" class="profilePhotoTweet">
+            <input type="textarea">
+            <div class="reply">
+                <a href="" class=><i class="bi bi-globe2"></i>Every one can reply</a>
+            </div>
+            <div class="multimedia">
+                <a href=""><i class="bi bi-image"></i></a>
+                <a href=""><i class="bi bi-filetype-gif"></i></a>
+                <a href=""><i class="bi bi-emoji-smile"></i></a>
+                <a href=""><i class="bi bi-reception-4"></i></a>
+                <a href=""><i class="bi bi-calendar-event-fill"></i></a>
+                <a href=""><i class="bi bi-geo-alt"></i></a>
+                
+            </div>
+        </header>
 
         <article class="tweet">
                 <div class="profileTweet">
@@ -125,7 +113,6 @@
                 <a href="" class="replyshare"><i class="bi bi-share"></i> Share</a>
             </div>
         </article>
-
     </main> 
 
     <aside class="recomendados">
