@@ -1,3 +1,65 @@
 .home{
-    display: block;
+    display: flex;
+}
+
+.profilePhotoTweet{
+    width: 64px;
+    height: 64px;
+}
+
+.home_do_usuario{
+    width: 100%;
+}
+
+.inputs > textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    padding: 1em;
+    border: rgb(201, 201, 201) solid 1px;
+    border-radius: 10px;
+}
+
+.home_do_usuario > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reply {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.reply:hover {
+    text-decoration: none;
+    background-color: rgba(29, 155, 240, 0.1);
+    border: rgba(29, 155, 240, 0.1) solid 1px;
+    border-radius: 10px;
+}
+
+.multimedia > a{
+    margin-right: 10px;
+    color: rgb(29, 155, 240);
+}
+
+.multimedia > a:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+    border: rgba(29, 155, 240, 0.1) solid 1px;
+    border-radius: 10px;
+}
+
+.status_e_envio{
+    display: flex;;
+}
+
+.status_e_envio > button {
+    border-style: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 20px;
+}
+
+.status_e_envio{
+    justify-content: space-between;
+    width: 15%;
 }
