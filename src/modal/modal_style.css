@@ -64,3 +64,9 @@
     cursor: not-allowed;
     background-color: rgb(83, 181, 246);
 }
+
+.botao_close{
+    background-color: transparent;
+    border: none;
+    color: rgb(29, 155, 240);
+}
