@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tzeeter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/modal/modal_style.css">
     <link rel="stylesheet" href="/src/css/base_style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
 </head>
  
 <body>
@@ -21,10 +21,13 @@
             <li><i class="bi bi-envelope"></i><a href=""> Messages</a></li>
             <li><i class="bi bi-person"></i><a href=""> Profile</a></li>
             <li><i class="bi bi-three-dots"></i> <a href=""> More</a></li>
-            <button class="tzeetar"> Tzeetar</button>
+            <button class="tzeetar" id="tzeetar"> Tzeetar</button>
             <button class="tzeetarMobile"><i class="bi bi-chat"></i></button>
         </ul>
     </nav>
+    
+    <dialog id="modal">
+    </dialog>
 
     <main class="container">
         <h1>Home</h1>
@@ -47,7 +50,7 @@
                     <div class="status_e_envio">
                         <span class="counter" id="counter"></span>
                         <a href="" class="add_tzeeter"><i class="bi bi-plus-circle"></i></a>
-                        <button>enviar</button>
+                        <button id="botao" class="botao" disabled>Enviar</button>
                     </div>
                 </div>
             </div>
