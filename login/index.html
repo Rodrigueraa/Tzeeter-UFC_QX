@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Formulário de registro -->
+    <div class="container">
+        <img src="/src/img/tiziu.png" alt="Logo">
+        <h1>Entre no Tzeet agora mesmo</h1>
+        <form>
+            <div class="input-container">
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <label for="email">Email</label>
+            </div>
+            <span class="erro-email" id="erro-email">Informe um email válido</span>
+
+            <div class="input-container">
+                <input type="password" id="senha" name="senha" placeholder=" " required>
+                <label for="senha">Senha</label>
+            </div>
+
+            <a href="#">Esqueceu a senha?</a>
+            <input type="submit" value="Entrar" class="btn" id="btn" disabled>
+            <p>Não tem uma conta? <a href="/login/registrar">Inscreva-se</a></p>
+        </form>
+    </div>
+
+</body>
+<script src="/login/script.js"></script>
+</html>
